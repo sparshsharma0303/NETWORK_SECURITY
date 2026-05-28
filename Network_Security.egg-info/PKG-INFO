@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: Network-Security
+Version: 1.0.0
+Author: Sparsh Sharma
+Author-email: sparshsharma0303@gmail.com
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pymongo
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
