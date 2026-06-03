@@ -6,6 +6,7 @@ Author-email: sparshsharma0303@gmail.com
 Requires-Dist: numpy
 Requires-Dist: pandas
 Requires-Dist: pymongo
+Requires-Dist: pymongo[srv]==3.12
 Dynamic: author
 Dynamic: author-email
 Dynamic: requires-dist

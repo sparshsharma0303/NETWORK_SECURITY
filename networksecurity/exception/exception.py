@@ -12,12 +12,12 @@ class NetworkSecuriyException(Exception):
     def __str__(self):
         return f"error occured in python script name {self.filename} line number {self.line_no} error message {self.error_message}"
     
-if __name__ == "__main__":
-    try:
-        logger.logging.info("enter the try block")
-        a = 1/0
-        print("this wii not be printed", a)
+# if __name__ == "__main__":
+#     try:
+#         logger.logging.info("enter the try block")
+#         a = 1/0
+#         print("this wii not be printed", a)
 
-    except Exception as e :
-        raise NetworkSecuriyException(e,sys)
+#     except Exception as e :
+#         raise NetworkSecuriyException(e,sys)
         
